@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3X3 Matris Çarpımı</title>
+    <script src="script.js"></script>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <div>
+        <main>
+            <h1 >3X3 MATRIS CARPIMI</h1>
+            <section>
+                <div class="matrix-container">
+                    <div class="matrix">
+                        <h2>Birinci Matris</h2>
+                        <table border="1">
+                            <tr style="height:50px">
+                                <td><input size="5" id="m00" ></td>
+                                <td><input size="5" id="m01" ></td>
+                                <td><input size="5" id="m02" ></td>
+                            </tr>
+                            <tr style="height:50px">
+                                <td><input size="5" id="m10" ></td>
+                                <td><input size="5" id="m11" ></td>
+                                <td><input size="5" id="m12" ></td>
+                            </tr>
+                            <tr style="height:50px">
+                                <td><input size="5" id="m20" ></td>
+                                <td><input size="5" id="m21" ></td>
+                                <td><input size="5" id="m22" ></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="matrix">
+                        <h2>İkinci Matris</h2>
+                        <table border="1">
+                            <tr style="height:50px">
+                                <td><input size="5" id="n00" ></td>
+                                <td><input size="5" id="n01" ></td>
+                                <td><input size="5" id="n02" ></td>
+                            </tr>
+                            <tr style="height:50px">
+                                <td><input size="5" id="n10" ></td>
+                                <td><input size="5" id="n11" ></td>
+                                <td><input size="5" id="n12" ></td>
+                            </tr>
+                            <tr style="height:50px">
+                                <td><input size="5" id="n20" ></td>
+                                <td><input size="5" id="n21" ></td>
+                                <td><input size="5" id="n22"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <button id="btn">Onayla</button>
+                <h2>Sonuç</h2>
+                <table border="1" width="150px">
+                    <tr style="height:50px">
+                        <td><span id="s00"></span></td>
+                        <td><span id="s01"></span></td>
+                        <td><span id="s02"></span></td>
+                    </tr>
+                    <tr style="height:50px">
+                        <td><span id="s10"></span></td>
+                        <td><span id="s11"></span></td>
+                        <td><span id="s12"></span></td>
+                    </tr>
+                    <tr style="height:50px">
+                        <td><span id="s20"></span></td>
+                        <td><span id="s21"></span></td>
+                        <td><span id="s22"></span></td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

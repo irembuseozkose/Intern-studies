@@ -1,0 +1,16 @@
+.matrix-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.matrix {
+    margin-right:50px; 
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
